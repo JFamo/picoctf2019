@@ -1,7 +1,7 @@
 asm2:
 	<+0>:	push   ebp
-	<+1>:	mov    ebp,esp						;Function precon
-	<+3>:	sub    esp,0x10                     ;
+	<+1>:	mov    ebp,esp						; Function precon
+	<+3>:	sub    esp,0x10                     ; 
 	<+6>:	mov    eax,DWORD PTR [ebp+0xc]		; 0x18 > eax
 	<+9>:	mov    DWORD PTR [ebp-0x4],eax      ; 0x18 > ebp - 0x4
 	<+12>:	mov    eax,DWORD PTR [ebp+0x8]      ; 0x7  > eax
